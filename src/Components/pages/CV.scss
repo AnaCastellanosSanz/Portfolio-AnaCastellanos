@@ -1,0 +1,46 @@
+.cv{
+    margin-left: 25%;
+    margin-top: 3%;
+    @media (max-width: 600px) {
+       margin-left: 0;
+      }
+    .cvImage{
+        width: 50%;
+        border-radius: 5%;
+        margin-bottom: 10%;
+        @media (max-width: 600px) {
+            width: 80%;
+            margin-left: 10%;
+          }
+    }
+
+    .divButton{
+        margin-bottom: 3%;
+        margin-left: 20%;
+        @media (max-width: 600px) {
+            margin-left: 35%;
+           }
+        
+    }
+
+    .download{
+        color: black;
+        margin-bottom: 50%;
+    }
+
+    .button{
+       border: black solid 2px;
+       background-color: #e3bcea;
+
+    }
+
+    .buttondownload{
+        width: 20px;
+        margin-left: 5%;
+        @media (max-width: 600px) {
+            margin-left: 20%;
+           }
+    }
+    
+
+}

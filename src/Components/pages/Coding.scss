@@ -1,0 +1,64 @@
+.codingGallery {
+  width: 100%;
+  margin-top: 5%;
+  margin-right: 20%;
+  margin-left: 2%;
+  padding-bottom: 200px;
+  font-family: 'Assistant', sans-serif;
+  @media (max-width: 600px) {
+    margin: 20px;
+    margin-left: 15%;
+  }
+  .codingCards {
+    margin-top: 10%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-right: 30%;
+    gap: 50px;
+    
+    .cardsC {
+      width: 20%;
+      height: 380px;
+      margin-top: 5%;
+      border-radius: 5%;
+      padding: 20px;
+      background-color: #767676;
+      border: black 2px solid;
+      @media (max-width: 600px) {
+        width: 100%;
+      }
+
+      a{
+        color: rgb(112, 16, 112);
+      }
+      
+      h2{
+        border-bottom: 2px solid black;
+        font-size: 20px;
+      }
+      h3{
+        font-size: 15px;
+      }
+
+      img {
+
+        border-radius: 2%;
+        width: 100%;
+  
+        @media (max-width: 600px) {
+          width: 100%;
+        }
+      }
+      .textoCoding {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        
+        img {
+          width: 30px;
+        }
+      }
+    }
+  }
+}

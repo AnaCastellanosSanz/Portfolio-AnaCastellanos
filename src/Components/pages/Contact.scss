@@ -1,0 +1,11 @@
+.contact{
+    font-size: 20px;
+    margin-top: 15%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: 20%;
+    @media (max-width: 600px) {
+        margin-left: 5%;
+        margin-top: 20%;
+      }
+    
+}

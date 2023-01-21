@@ -1,0 +1,107 @@
+
+.about{
+    margin-top: 15%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      
+      
+      .a-img {
+        width: 100%;
+        height: 100%;
+        margin-left: 10%;
+        
+        
+      }
+    .form{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        animation: fadeInLeft;
+        animation-duration: 1s;
+    }
+    .textAbout{
+      margin-top: 10%;
+        width: 500px;
+        margin-left: 20%;
+        margin-bottom: 15%;
+        margin-right: 10%;
+        @media (max-width: 600px) {
+          margin-left: 30%;
+          width: 200px;
+          margin-top: 20%;
+  
+        }
+
+          h3{
+            margin:0;
+            color: rgb(234, 234, 234);
+          }
+          p{
+            margin: 0;
+            font-size: 20px;
+            color: rgb(234, 234, 234);
+            @media (max-width: 600px) {
+             font-size: 15px;
+             margin-right: 5%;
+            }
+            
+          }
+          .paragraph h3{
+            font-size: 30px;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            margin-bottom: 5%;
+          }
+          
+
+
+
+          .textLanguages{
+            display: flex;
+            align-items: center;
+            h2{
+              margin: 0;
+            }
+            height: 70px;
+            #spin {
+              color:black;
+            }
+            #spin:after {
+              color: #b968c7;
+              font-size: 30px;
+              content:"";
+              animation: spin 15s linear infinite;
+            }
+            @keyframes spin {
+              0% { content:"Hola";}
+              10% { content:"Hello";}
+              20% { content:"你好";}
+              30% { content:"Hallo";}
+              40% { content:"Salut";}
+              50% { content: "مرحبا";}
+              60% { content: "Привет";}
+              70% { content: "Olá";}
+              80% { content: "안녕";}
+              90% { content: "こんにちは";}
+              100% { content: "Hola";}
+            }
+
+          }
+
+          .img{
+            margin-top: 5%;
+            width: 40%;
+            border-radius: 20%;
+            margin-bottom: 40%;
+          }
+
+
+          @media (max-width: 700px) {
+
+            .img{
+              display: none;}
+           
+            .a-card{
+             display: none;
+            }
+          }
+    }
+}
