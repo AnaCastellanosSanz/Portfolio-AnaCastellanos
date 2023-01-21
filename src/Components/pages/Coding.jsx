@@ -13,9 +13,9 @@ const Coding = () => {
 
     <div className='cardsC'>
     <a href="https://poyecto-rick-and-morty-react.vercel.app/"><img className="photoRyM" src={rickymorty} alt=""/></a>
-    <h2><a href='https://poyecto-rick-and-morty-react.vercel.app/'>Rick and Morty API </a></h2>
+    <h2><a href='https://poyecto-rick-and-morty-react.vercel.app/'>Rick and Morty APP </a></h2>
     <h3>Created with Authorization, React, JavaScript and CSS</h3>
-    <h3>From <a href="https://rickandmortyapi.com/">Rick and Morty App</a></h3>
+    <h3>From <a href="https://rickandmortyapi.com/">Rick and Morty Api</a></h3>
     <div className='textoCoding'>
         <a href="https://github.com/AnaCastellanosSanz/Poyecto-Rick-and-Morty-React"><img src={github} alt=""/></a>
     </div>
