@@ -34,11 +34,11 @@ const Coding = () => {
     </div>
 
     <div className='cardsC'>
-   <img src={dino} alt=""/>
-    <h2>Dino Game</h2>
+    <a href="https://dino-game-ashy.vercel.app/"><img className="photoRyM" src={dino} alt=""/></a>
+    <h2><a href='https://dino-game-ashy.vercel.app/'>Dino Game</a></h2>
     <h3>Created with JavaScript, HTML and CSS.</h3>
     <div className='textoCoding'>
-        <a href="https://github.com/AnaCastellanosSanz/Proyecto-Pokedex"><img src={github
+        <a href="https://github.com/AnaCastellanosSanz/Dino-Game"><img src={github
         } alt=""/></a>
     </div>
     </div>
