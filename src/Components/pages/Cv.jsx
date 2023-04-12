@@ -1,6 +1,6 @@
 import React from "react";
 import "./CV.scss";
-import cv from "../assets/cvPhoto.png"
+import cv from "../assets/cvPhoto.jpg"
 import pdf from "../CV/CV.pdf"
 import download from "../CV/download.png"
 

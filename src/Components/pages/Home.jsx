@@ -8,6 +8,8 @@ import mongo from "../assets/icons//mongo.png"
 import node from "../assets/icons//node.png"
 import react from "../assets/icons//react.png"
 import sass from "../assets/icons//sass.png"
+import php from "../assets/icons//php.png" 
+import Symfony from "../assets/icons//symfony.png" 
 
 const Home = () => {
   return (
@@ -27,6 +29,8 @@ const Home = () => {
             <img src={mongo} alt=""/>
             <img src={react} alt=""/>
             <img src={angular} alt=""/>
+            <img src={php} alt=""/>
+            <img src={Symfony} alt=""/>
             </div>
       </div>
     </div>
